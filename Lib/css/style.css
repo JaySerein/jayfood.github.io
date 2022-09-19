@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "KoHo", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+  color: #27ae60;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #27ae60;
+}
+.search {
+  height: 40px;
+  width: 100%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid #27ae60;
+  margin-right: -35px;
+}
+.btn-search {
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: #27ae60;
+  border-radius: 60px;
+}
+.form-group input {
+  margin-top: 20px;
+  border: 1px solid #27ae60;
+  border-radius: 60px;
+}
+.form-group input[type="submit"] {
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  background: #27ae60;
+}
+.form-group input[type="submit"]:hover {
+  color: black;
+  border: 1px solid #27ae60;
+  transition: 0.5s;
+}
+.home-bg {
+  background: url(../img/home.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.home-bg .home {
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+}
+.home-bg .home .content {
+  width: 50rem;
+}
+.home-bg .home .content span {
+  color: #27ae60;
+  font-size: 2.5rem;
+  margin-left: 20rem;
+  font-weight: 600;
+}
+.home-bg .home .content h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 15rem;
+  color: black;
+}
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.btn-more {
+  font-size: 1.5rem;
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: #27ae60;
+  border-radius: 60px;
+}
+.btn-more:hover {
+  background-color: white;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+  transition: 0.5s;
+}
+#btn-add-cart {
+  font-size: 1.5rem;
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: #27ae60;
+  border-radius: 5px;
+}
+#btn-add-cart:hover {
+  background-color: white;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+  transition: 0.5s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.form-group-vote input,textarea {
+  margin-top: 20px;
+  border: 1px solid #27ae60;
+  border-radius: 60px;
+}
+.form-group-vote textarea{
+  padding: 5px 10px;
+  width: 100%;
+  font-size: 1.5rem;
+  height: 100px;
+  border-radius: 5px;
+}
+.form-group-vote input[type="submit"] {
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  background: #27ae60;
+}
+.form-group-vote input[type="submit"]:hover {
+  color: black;
+  border: 1px solid #27ae60;
+  transition: 0.5s;
+}
+
+
+
+.footer{
+  background-color: white;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap:2.5rem;
+  align-items: flex-start;
+}
+
+.footer .box-container h3{
+  text-transform: uppercase;
+  color: black;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.footer .box-container a,
+.footer .box-container p{
+  display: block;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.footer .box-container a i,
+.footer .box-container p i{
+  color:#27ae60;
+  padding-right: 1rem;
+}
+
+.footer .box-container a:hover{
+  text-decoration: underline;
+  color:#27ae60;
+}
+
+.footer .credit{
+  margin-top: 2rem;
+  padding: 2rem 1.5rem;
+  padding-bottom: 2.5rem;
+  line-height: 0.5rem;
+  border-top: .2rem solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  color:black;
+}
+
+.footer .credit span{
+  color:#27ae60;
+}
